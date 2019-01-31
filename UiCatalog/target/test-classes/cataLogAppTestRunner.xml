@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS test suite on iPhone Simulator">
+
+    <parameter name="OS" value="ios"/>
+    <parameter name="appType" value="iPhone"/>
+    <parameter name="deviceType" value="Simulator"/>
+    <parameter name="deviceName" value="iPhone XR"/>
+    <parameter name="version" value="12.1"/>
+
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+            <!--<class name="iPhone.ButtonTest"/>-->
+            <!--<class name="iPhone.ControlsTest"/>-->
+            <!--<class name="iPhone.ImagesTest"/>-->
+            <!--<class name="iPhone.NavigateUiTest"/>-->
+            <!--<class name="iPhone.PickerTest"/>-->
+            <!--<class name="iPhone.SearchBarTest"/>-->
+            <!--<class name="iPhone.SegmentsTest"/>-->
+            <!--<class name="iPhone.TextViewTest"/>-->
+            <!--<class name="iPhone.AlertsTest"/>-->
+            <!--<class name="iPhone.ToolbarTest"/>-->
+            <!--<class name="iPhone.TransitionsTest"/>-->
+            <!--<class name="iPhone.WebTest"/>-->
+            <!--<class name="iPhone.TextFieldsTest"/>-->
+            <!--<class name="iPhone.PickerTest"/>-->
+
+        </classes>
+    </test>
+</suite>

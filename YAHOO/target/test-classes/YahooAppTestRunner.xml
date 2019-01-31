@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo News test suite on android emulator">
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Pixel_XL_API_28"/>
+    <parameter name="version" value="8.1"/>
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+            <class name="TestHomePage.TestHomePage"/>
+            <class name="TestOriginalsPage.TestOriginalsPage"/>
+            <class name="TestTopStoriesPage.TestTopStoriesPage"/>
+            <class name="TestTopVideosPage.TestTopVideosPage"/>
+            <class name="TestTrendingPage.TestTrendingPage"/>
+            <class name="TestAccountPage.TestAccountPage"/>
+        </classes>
+    </test>
+</suite>
