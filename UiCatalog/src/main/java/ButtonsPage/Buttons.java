@@ -10,8 +10,15 @@ public class Buttons extends Base {
 
     @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Buttons\"]")
     public static WebElement buttons;
-    public void clickButton(){
-        buttons.click();
+    public void clickButton(){ buttons.click();
+    }
+    public void getButtonSize(){
+        buttons.getSize();
+        System.out.println(buttons.getSize());
+    }
+    public  void getButtonText(){
+        String buttonTest = buttons.getText();
+        System.out.println(buttonTest);
     }
     public void showBackgroundImage(){
         buttons.click();

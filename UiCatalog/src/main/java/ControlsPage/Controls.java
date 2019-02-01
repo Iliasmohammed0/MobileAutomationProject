@@ -10,6 +10,14 @@ public class Controls extends Base {
     @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Controls\"]")
     public static WebElement control;
     public void clickControl(){ control.click(); }
+    public void getControlSize(){
+        control.getSize();
+        System.out.println(control.getSize());
+    }
+    public  void getControlText(){
+        String buttonTest = control.getText();
+        System.out.println(buttonTest);
+    }
     public void showSwitch(){
         control.click();
         String Actual = ad.findElement(By.xpath("//XCUIElementTypeStaticText[@name=\"UISwitch\"]")).getText();

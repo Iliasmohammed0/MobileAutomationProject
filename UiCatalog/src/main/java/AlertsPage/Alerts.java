@@ -10,6 +10,14 @@ public class Alerts extends Base {
     @FindBy (xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[11]")
     public static WebElement alert;
     public void clickAlerts(){ alert.click(); }
+    public void getAlertsSize(){
+        alert.getSize();
+        System.out.println(alert.getSize());
+    }
+    public  void getAlertsText(){
+        String buttonTest = alert.getText();
+        System.out.println(buttonTest);
+    }
     @FindBy (xpath = "(//XCUIElementTypeStaticText[@name=\"Show Simple\"])[1]")
     public static WebElement simple;
     public void showSimple(){

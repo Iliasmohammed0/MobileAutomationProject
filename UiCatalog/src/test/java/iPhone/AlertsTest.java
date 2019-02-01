@@ -19,6 +19,18 @@ public class AlertsTest extends Alerts {
         alerts.clickAlerts();
     }
     @Test
+    public void testAlertsText(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        alerts.getAlertsText();
+    }
+    @Test
+    public void testAlertsSize(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        alerts.getAlertsSize();
+    }
+    @Test
     public void testShowSimple1() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

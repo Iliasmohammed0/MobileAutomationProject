@@ -10,20 +10,19 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <!--<class name="iPhone.ButtonTest"/>-->
-            <!--<class name="iPhone.ControlsTest"/>-->
-            <!--<class name="iPhone.ImagesTest"/>-->
-            <!--<class name="iPhone.NavigateUiTest"/>-->
-            <!--<class name="iPhone.PickerTest"/>-->
-            <!--<class name="iPhone.SearchBarTest"/>-->
-            <!--<class name="iPhone.SegmentsTest"/>-->
-            <!--<class name="iPhone.TextViewTest"/>-->
-            <!--<class name="iPhone.AlertsTest"/>-->
-            <!--<class name="iPhone.ToolbarTest"/>-->
-            <!--<class name="iPhone.TransitionsTest"/>-->
-            <!--<class name="iPhone.WebTest"/>-->
-            <!--<class name="iPhone.TextFieldsTest"/>-->
-            <!--<class name="iPhone.PickerTest"/>-->
+            <class name="iPhone.ButtonTest"/>
+            <class name="iPhone.ControlsTest"/>
+            <class name="iPhone.ImagesTest"/>
+            <class name="iPhone.NavigateUiTest"/>
+            <class name="iPhone.PickerTest"/>
+            <class name="iPhone.SearchBarTest"/>
+            <class name="iPhone.SegmentsTest"/>
+            <class name="iPhone.TextViewTest"/>
+            <class name="iPhone.AlertsTest"/>
+            <class name="iPhone.ToolbarTest"/>
+            <class name="iPhone.TransitionsTest"/>
+            <class name="iPhone.WebTest"/>
+            <class name="iPhone.TextFieldsTest"/>
 
         </classes>
     </test>

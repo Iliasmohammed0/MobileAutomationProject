@@ -19,6 +19,18 @@ public class ImagesTest extends Images {
         images.clickImages();
     }
     @Test
+    public void testWebText(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        images.getImagesText();
+    }
+    @Test
+    public void testWebSize(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        images.getImagesSize();
+    }
+    @Test
     public void testButton1() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

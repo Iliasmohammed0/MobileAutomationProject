@@ -18,6 +18,18 @@ public class ButtonTest extends Buttons {
         }.getClass().getEnclosingMethod().getName()));
         buttons.clickButton();
    }
+   @Test
+   public void testButtonText(){
+       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+       }.getClass().getEnclosingMethod().getName()));
+        buttons.getButtonText();
+   }
+    @Test
+    public void testButtonSize(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        buttons.getButtonSize();
+    }
     @Test
     public void testButton1() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

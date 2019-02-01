@@ -10,6 +10,14 @@ public class Images extends Base {
     @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Images\"]")
     public static WebElement images;
     public void clickImages(){ images.click(); }
+    public void getImagesSize(){
+        images.getSize();
+        System.out.println(images.getSize());
+    }
+    public  void getImagesText(){
+        String buttonTest = images.getText();
+        System.out.println(buttonTest);
+    }
     public void show(){
         images.click();
         String Actual = ad.findElement(By.xpath("//XCUIElementTypeStaticText[@name=\"Duration\"]")).getText();

@@ -19,6 +19,18 @@ public class ControlsTest extends Controls {
         controls.clickControl();
     }
     @Test
+    public void testControlText(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        controls.getControlText();
+    }
+    @Test
+    public void testControlSize(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        controls.getControlSize();
+    }
+    @Test
     public void testButton1() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

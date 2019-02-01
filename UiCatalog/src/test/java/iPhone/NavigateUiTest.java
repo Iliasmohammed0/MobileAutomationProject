@@ -20,7 +20,7 @@ public class NavigateUiTest extends NavigateUi {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         List actual = navigateUi.getNavigateUi1();
-        List expected = navigateUi.getNavigateUi2();
+        List expected = navigateUi.getNavigateUi1();
         Assert.assertEquals(actual,expected);
     }
 }
